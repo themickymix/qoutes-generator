@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center elements vertically */
+  align-items: center; /* Center elements horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Optional: Center text inside the paragraph */
+}
+
+.center-container p {
+  margin: 0 0 20px 0; /* Add space between paragraph and button */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.qoutes {
+    font-weight: 700px;
+  font-style: italic;
+  font-size: 30px;
+  margin: 20px;
+}
